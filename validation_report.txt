@@ -1,0 +1,86 @@
+Project Validation Report
+=========================
+Date: Tue, Aug 19, 2025 11:32:44 AM
+Project: database-connection-pool
+
+Maven Version:
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: C:\Users\GirishHiremath\Downloads\apache-maven-3.9.9
+Java version: 21.0.6, vendor: Red Hat, Inc., runtime: C:\Program Files\RedHat\java-21-openjdk-21.0.6.0.7-1
+Default locale: en_IN, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+
+Java Version:
+openjdk version "21.0.6" 2025-01-21 LTS
+OpenJDK Runtime Environment (Red_Hat-21.0.6.0+7-1) (build 21.0.6+7-LTS)
+OpenJDK 64-Bit Server VM (Red_Hat-21.0.6.0+7-1) (build 21.0.6+7-LTS, mixed mode, sharing)
+
+Dependencies:
+
+Test Results Summary:
+Test Results Summary (TEST-com.example.connectionpool.DatabaseConnectionPoolApplicationTest$ActuatorEndpointTests.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$ActuatorEndpointTests" time="7.195" tests="5" errors="0" skipped="0" failures="0">
+  <testcase name="testDirectEndpointCall" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$ActuatorEndpointTests" time="0.071">
+  <testcase name="testDatabaseHealthInHealthEndpoint" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$ActuatorEndpointTests" time="0.416">
+  <testcase name="testHealthEndpointAvailable" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$ActuatorEndpointTests" time="0.018"/>
+  <testcase name="testConnectionPoolEndpointAvailable" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$ActuatorEndpointTests" time="0.015"/>
+  <testcase name="testConnectionPoolMetrics" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$ActuatorEndpointTests" time="0.012"/>
+Test Results Summary (TEST-com.example.connectionpool.DatabaseConnectionPoolApplicationTest$DatabaseConfigurationTests.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$DatabaseConfigurationTests" time="5.602" tests="5" errors="0" skipped="0" failures="0">
+  <testcase name="testDatabaseConnection" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$DatabaseConfigurationTests" time="0.057">
+  <testcase name="testHikariDataSourceConfiguration" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$DatabaseConfigurationTests" time="0.007"/>
+  <testcase name="testDatabaseOperations" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$DatabaseConfigurationTests" time="0.051"/>
+  <testcase name="testHikariDataSourceCreation" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$DatabaseConfigurationTests" time="0.005"/>
+  <testcase name="testMultipleConnections" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$DatabaseConfigurationTests" time="0.006"/>
+Test Results Summary (TEST-com.example.connectionpool.DatabaseConnectionPoolApplicationTest$HealthIndicatorTests.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$HealthIndicatorTests" time="7.607" tests="3" errors="0" skipped="0" failures="0">
+  <testcase name="testHikariMetricsInHealth" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$HealthIndicatorTests" time="0.099">
+  <testcase name="testUnhealthyDatabase" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$HealthIndicatorTests" time="0.029"/>
+  <testcase name="testHealthyDatabase" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$HealthIndicatorTests" time="0.007"/>
+Test Results Summary (TEST-com.example.connectionpool.DatabaseConnectionPoolApplicationTest$HikariPropertiesTests.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$HikariPropertiesTests" time="4.996" tests="4" errors="0" skipped="0" failures="0">
+  <testcase name="testPropertySettersGetters" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$HikariPropertiesTests" time="0.053">
+  <testcase name="testDefaultPoolSizeSettings" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$HikariPropertiesTests" time="0.005"/>
+  <testcase name="testDefaultTimeoutSettings" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$HikariPropertiesTests" time="0.004"/>
+  <testcase name="testDefaultReliabilitySettings" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$HikariPropertiesTests" time="0.006"/>
+Test Results Summary (TEST-com.example.connectionpool.DatabaseConnectionPoolApplicationTest$IntegrationTests.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$IntegrationTests" time="6.825" tests="2" errors="0" skipped="0" failures="0">
+  <testcase name="testCompleteIntegration" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$IntegrationTests" time="0.394">
+  <testcase name="testConfigurationConsistency" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$IntegrationTests" time="0.004"/>
+Test Results Summary (TEST-com.example.connectionpool.DatabaseConnectionPoolApplicationTest$PerformanceTests.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$PerformanceTests" time="17.7" tests="5" errors="0" skipped="0" failures="0">
+  <testcase name="testConnectionPoolExhaustion" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$PerformanceTests" time="1.071">
+  <testcase name="testConnectionReuseEfficiency" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$PerformanceTests" time="0.02"/>
+  <testcase name="testConcurrentConnectionRequests" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$PerformanceTests" time="0.014">
+  <testcase name="testRapidConnectionCycling" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$PerformanceTests" time="0.007">
+  <testcase name="testMixedWorkload" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$PerformanceTests" time="10.045">
+Test Results Summary (TEST-com.example.connectionpool.DatabaseConnectionPoolApplicationTest$RestControllerTests.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$RestControllerTests" time="8.822" tests="4" errors="0" skipped="0" failures="0">
+  <testcase name="testLoadTest" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$RestControllerTests" time="0.671">
+  <testcase name="testPoolStatus" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$RestControllerTests" time="0.015"/>
+  <testcase name="testConcurrentRequests" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$RestControllerTests" time="0.024"/>
+  <testcase name="testDatabaseConnectivity" classname="com.example.connectionpool.DatabaseConnectionPoolApplicationTest$RestControllerTests" time="0.018"/>
+Test Results Summary (TEST-com.example.connectionpool.DatabaseConnectionPoolApplicationTest.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.connectionpool.DatabaseConnectionPoolApplicationTest" time="7.773" tests="0" errors="0" skipped="0" failures="0">
+
+HikariCP Connection Pool Features Validated:
+- Spring Boot Application (@SpringBootApplication)
+- HikariCP Configuration Properties (@ConfigurationProperties)
+- Database Configuration (DatabaseConfig with HikariDataSource)
+- Connection Pool Health Monitoring (DatabaseHealthIndicator)
+- Custom Actuator Endpoint (/actuator/connectionpool)
+- Database Test Controller (/test-db, /load-test, /pool-status)
+- Performance Optimized Settings (pool-size, timeouts, leak-detection)
+- JMX Monitoring and Metrics Collection
+- Connection Validation and Health Checks
+- Production and Test Environment Configurations
+- Comprehensive Test Suite (25 tests in 6 categories)
+  - HikariCP Properties Tests (4 tests)
+  - Database Configuration Tests (5 tests)
+  - Health Indicator Tests (3 tests)
+  - REST Controller Tests (4 tests)
+  - Actuator Endpoint Tests (5 tests)
+  - Performance Tests (5 tests)
+  - Integration Tests (2 tests)
+- Connection Pool Performance Testing (concurrent operations, exhaustion handling)
+- TestRestTemplate Integration Testing (HTTP endpoint validation)

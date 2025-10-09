@@ -1,0 +1,6 @@
+Database connection pool configuration
+
+Description: Configure a high-performance database connection pool, such as HikariCP (the default in Spring Boot 2+), in a Spring Boot application. The task is to explicitly set key performance and reliability properties in the application.properties or application.yml file. This includes setting maximum-pool-size, minimum-idle, connection-timeout, and max-lifetime.
+
+Skills Tested: Database connection pooling, performance tuning, and Spring Boot configuration properties.
+
